@@ -1,0 +1,631 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Donate to Help Children in Ukraine | Save the Children</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href=".dyo/clientlib-vendor.98417dd671c9971fd8f4053e024f7acf.css" type="text/css">
+    <link rel="stylesheet" href=".dyo/clientlib-all.f53e34342fd9bd15f940ad1b779dfa56.css" type="text/css">
+    <style type="text/css" id="CookieConsentStateDisplayStyles" data-di-res-id="233ee80c-f00d6262" data-di-rand="1646997352998">
+    .cookieconsent-optin,
+    .cookieconsent-optin-preferences,
+    .cookieconsent-optin-statistics,
+    .cookieconsent-optin-marketing {
+        display: block;
+        display: initial;
+    }
+
+    .cookieconsent-optout-preferences,
+    .cookieconsent-optout-statistics,
+    .cookieconsent-optout-marketing,
+    .cookieconsent-optout {
+        display: none;
+    }
+    </style>
+    <link rel="stylesheet" href="./css/css" media="all" data-di-rand="1646997354691">
+</head>
+
+<body class="webkit not-logged-in">
+    <div class="section__container">
+        <p class="text--center"></p>
+    </div>
+    <header class="header background--biscuit-lightest" id="header" role="banner">
+        <noscript>
+            <div class="header__js-disabled">
+                <div class="section__container text--large">
+                    We have detected that JavaScript is disabled in your web browser. Please follow <a href="donate.php" target="_blank" class="text--white">these instructions</a> to turn it on to get the best possible experience on our website.
+                </div>
+            </div>
+        </noscript>
+        <div class="header__top">
+            <div class="header__container">
+                <ul class="menu--user" id="menu--user" role="menu" data-s-region-id="Navigation|User|||Anonymous">
+                    <li class="menu__item--basket  hidden js-hidden">
+                        <span class="menu__basket-items" id="menu__basket-items"></span>
+                        <a class="menu__link--basket" data-link-type="text" href="donate.php" target="_self" data-name="Complete My Donation" data-s-object-id="Text|Complete My Donation|" data-di-id="di-id-d862f84c-ebfc9c6d">
+                            Complete My Donation
+                        </a>
+                    </li>
+                    <li class="menu__item--logged-out">
+                        <a class="menu__link--login" data-link-type="text" href="donate.php" target="_self" data-name="Sign In" data-s-object-id="Text|Sign In|" data-di-id="di-id-683142e-2e998448">
+                            Sign In
+                        </a>
+                    </li>
+                    <li class="menu__item--logged-in">
+                        <a class="menu__link--account" data-link-type="text" href="donate.php" target="_self" data-name="My Account" data-s-object-id="Text|My Account|" data-di-id="di-id-4b7a880-67b858e2">My Account</a>
+                    </li>
+                    <li class="menu__item--logged-in">
+                        <a class="menu__link--logout" data-link-type="text" href="donate.php" target="_self" id="signout-link" data-name="Sign Out" data-s-object-id="Text|Sign Out|" data-di-id="#signout-link">Sign Out</a>
+                    </li>
+                </ul>
+                <div class="user-greeting">Hello,&nbsp;<span id="user-greeting-name"></span></div>
+            </div>
+            <!-- /.header__container -->
+        </div>
+        <div class="header__container">
+            <div class="header__middle">
+                <a href="donate.php" class="header__logo" id="header__logo" data-link-type="sc_logo" data-name="Save the Children" data-s-object-id="Sc_logo|Save the Children|" data-di-id="#header__logo">
+                    <img src=".dyo/stc-logo.svg" alt="Save the Children" class="header__logo-image" id="header__logo--original">
+                </a>
+                <nav class="nav" id="nav">
+                    <div class="nav__navigation">
+                        <!-- DNL: `nav__item`s changed their properties, use the new content -->
+                        <div class="nav__item">
+                            <button data-source="#header__search" data-target="#nav__container" class="nav__button nav__button--search" id="nav__button--search" data-s-object-id="Button|Search|" data-di-id="#nav__button--search"><span class="nav__text">Search</span></button>
+                        </div>
+                        <div class="nav__item">
+                            <button data-source="#menu--main, #menu--user" data-target="#nav__container" data-target-container=".nav__menu" class="nav__button nav__button--menu" id="nav__button--menu" data-s-object-id="Button|Menu|" data-di-id="#nav__button--menu"><span class="nav__text">Menu</span></button>
+                        </div>
+                    </div><!-- /.nav -->
+                    <div class="nav__container" id="nav__container">
+                        <form class="header__search" action="https://www.savethechildren.org/us/search-results" method="GET" id="header__search">
+                            <input type="text" placeholder="Enter search term" value="" class="header__search-input" name="googlecse" data-di-id="#gen_googlecse">
+                            <button class="header__search-button" type="submit" data-link-type="button" data-name="Search" data-s-object-id="Button|Search|" data-di-id="#gen_search"><span class="header__search-label">Search</span></button>
+                        </form>
+                        <!-- DNL: Added in the new `nav__menu` element, to allow for proper scrolling of all menus on mobile -->
+                        <div class="nav__menu">
+                        </div><!-- /.nav__menu -->
+                    </div>
+                </nav>
+            </div>
+            <!-- /.header__middle -->
+            <div class="header__bottom">
+                <ul class="menu menu--main" id="menu--main" role="menu" data-s-region-id="Navigation|Main|||Anonymous">
+                    <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 1 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Who We Are" data-s-object-id="Text|Who We Are|" data-di-id="di-id-deea9a67-390e248d">Who We Are</a><span class="menu__toggle"></span>
+                        <ul class="menu menu--second" role="menu">
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 1 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Why Save the Children?" data-s-object-id="Text|Why Save the Children?|" data-di-id="di-id-c38219c5-6cceb378">Why Save the Children?</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 1 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Charity Ratings" data-s-object-id="Text|Charity Ratings|" data-di-id="di-id-e6abd74-34b26e95">Charity Ratings</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 1 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Leadership and Trustees" data-s-object-id="Text|Leadership and Trustees|" data-di-id="di-id-417ce7c-f3683f15">Leadership and Trustees</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 1 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Strategic Partners" data-s-object-id="Text|Strategic Partners|" data-di-id="di-id-e6abd74-aaa9ac67">Strategic Partners</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 1 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Media" data-s-object-id="Text|Media|" data-di-id="di-id-be5f3600-7b85f751">Media</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 1 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Reports and Publications" data-s-object-id="Text|Reports and Publications|" data-di-id="di-id-e6abd74-fc649940">Reports and Publications</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 1 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Financial Information" data-s-object-id="Text|Financial Information|" data-di-id="di-id-c38219c5-1f51e0af">Financial Information</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 2 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="What We Do" data-s-object-id="Text|What We Do|" data-di-id="di-id-cf6b1573-8d80a067">What We Do</a><span class="menu__toggle"></span>
+                        <ul class="menu menu--second" role="menu">
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 2 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Where We Work" data-s-object-id="Text|Where We Work|" data-di-id="di-id-890dbb9c-51740f09">Where We Work</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 2 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Health" data-s-object-id="Text|Health|" data-di-id="di-id-795331d4-1b8040c7">Health</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 2 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Education" data-s-object-id="Text|Education|" data-di-id="di-id-5b4c6023-481a2a8">Education</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 2 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Protection" data-s-object-id="Text|Protection|" data-di-id="di-id-5b4c6023-4aa4fce6">Protection</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 2 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Policy and Advocacy" data-s-object-id="Text|Policy and Advocacy|" data-di-id="di-id-c38219c5-1c8b37d2">Policy and Advocacy</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 2 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Emergency Response" data-s-object-id="Text|Emergency Response|" data-di-id="di-id-81fd14ad-5398127d">Emergency Response</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 3 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Ways to Help" data-s-object-id="Text|Ways to Help|" data-di-id="di-id-d5a04081-c5c43a72">Ways to Help</a><span class="menu__toggle"></span>
+                        <ul class="menu menu--second" role="menu">
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 3 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Ways to Give" data-s-object-id="Text|Ways to Give|" data-di-id="di-id-e6abd74-e3ab5afc">Ways to Give</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 3 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Fundraise for Kids" data-s-object-id="Text|Fundraise for Kids|" data-di-id="di-id-417ce7c-ebcfbe2c">Fundraise for Kids</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 3 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Participate in Events" data-s-object-id="Text|Participate in Events|" data-di-id="di-id-9da44eee-adda000e">Participate in Events</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 3 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Donor-Advised Funds" data-s-object-id="Text|Donor-Advised Funds|" data-di-id="di-id-b712c419-3029d0da">Donor-Advised Funds</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 3 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Plan Your Legacy" data-s-object-id="Text|Plan Your Legacy|" data-di-id="di-id-81fd14ad-82d08335">Plan Your Legacy</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 3 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Advocate for Children" data-s-object-id="Text|Advocate for Children|" data-di-id="di-id-dcdd7071-820d8356">Advocate for Children</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 3 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Volunteer" data-s-object-id="Text|Volunteer|" data-di-id="di-id-81fd14ad-7d3b6b41">Volunteer</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 4 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Shop Gift Catalog" data-s-object-id="Text|Shop Gift Catalog|" data-di-id="di-id-dbca58b9-364589a0">Shop Gift Catalog</a><span class="menu__toggle"></span>
+                        <ul class="menu menu--second" role="menu">
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 4 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Shop Popular Gifts" data-s-object-id="Text|Shop Popular Gifts|" data-di-id="di-id-80e30000-926af471">Shop Popular Gifts</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 4 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Shop by Price" data-s-object-id="Text|Shop by Price|" data-di-id="di-id-795331d4-edd35897">Shop by Price</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 4 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Shop by Category" data-s-object-id="Text|Shop by Category|" data-di-id="di-id-795331d4-9ad46801">Shop by Category</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 4 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Shop all Gifts" data-s-object-id="Text|Shop all Gifts|" data-di-id="di-id-795331d4-4b0fda2">Shop all Gifts</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 5 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Sponsor a Child" data-s-object-id="Text|Sponsor a Child|" data-di-id="di-id-4479b1cf-8c1a7892">Sponsor a Child</a><span class="menu__toggle"></span>
+                        <ul class="menu menu--second" role="menu">
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 5 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Sponsor a Child Around the World" data-s-object-id="Text|Sponsor a Child Around the World|" data-di-id="di-id-5b882249-b636c139">Sponsor a Child Around the World</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 5 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="Sponsor a Child in the U.S." data-s-object-id="Text|Sponsor a Child in the U.S.|" data-di-id="di-id-643f4a92-76e4708f">Sponsor a Child in the U.S.</a>
+                            </li>
+                            <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 5 of 6|Anonymous"><a class="menu__link " data-link-type="text" href="donate.php" target="_self" data-name="How Sponsorship Works" data-s-object-id="Text|How Sponsorship Works|" data-di-id="di-id-81fd14ad-f96293af">How Sponsorship Works</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li role="menuitem" class="menu__item" data-s-region-id="Navigation|Main||Grid 6 of 6|Anonymous"><a class="menu__link menu__link--red" data-link-type="button" href="donate.php" target="_self" data-name="Donate" data-s-object-id="Button|Donate|" data-di-id="di-id-dbca58b9-2b4e1d5f">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.header__container -->
+    </header>
+    <ul class="menu--donate" role="menu" data-s-region-id="Navigation|Donate|||Anonymous">
+        <li role="menuitem" class="menu__item"><a target="_self" class="menu__link  " data-link-type="button" href="donate.php" data-name="Donate" data-s-object-id="Button|Donate|" data-di-id="di-id-4ef4b5fe-95dfa4a1">Donate</a></li>
+    </ul>
+    <main id="main" class="main" itemprop="mainContentOfPage" role="main">
+        <!-- Content Section -->
+        <div>
+            <div class="emergencyalert parbase">
+                <section id="alert--EMERGENCY ALERT" data-stc-alert-expiration="1" class="section--red section--alert" data-s-region-id="Alert|EMERGENCY ALERT|Region 1 of 5||Anonymous" style="display: none;">
+                    <div class="section__container">
+                        <div class="section__close section__close--alert section__close--dark">x</div>
+                        <div>
+                            <h3 class="text--white text--center">EMERGENCY ALERT</h3>
+                            <p class="text--center">Two million refugees have now fled Ukraine, including at least one million children. Children on the move are at risk of hunger, illness, trafficking and abuse.</p>
+                            <p>Your donation today to the Children's Emergency Fund can help provide children and families at risk in Ukraine and around the world with immediate aid, such as food, water, hygiene kits, psychosocial support and cash assistance. Together, we can protect children in crisis.</p>
+                        </div>
+                        <div>
+                            <div>
+                                <p>
+                                    <a class="button--hollow-white button--large " target="_self" href="donate.php" data-link-type="button" data-name="DONATE NOW" data-s-object-id="Button|DONATE NOW|" data-di-id="di-id-7a0fe787-b8860f91">DONATE NOW</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="herobanner">
+                <section class="banner--optimized banner--image" data-s-region-id="Banner||Region 2 of 5||Anonymous">
+                    <!---->
+                    <div class="banner__slideshow">
+                        <div class="banner__slide">
+                            <div class="banner__wrap">
+                                <a target="_self" data-link-type="image" data-name="In Ukraine, a girl stands alone while bundled up for the cold weather. ">
+                                    <picture class="banner__picture">
+                                        
+                                        <img alt="In Ukraine, a girl stands alone while bundled up for the cold weather. " src=".dyo/cq5dam.thumbnail.1700.1700.jpg" class="banner__image">
+                                    </picture>
+                                </a>
+                                <div class="banner__content">
+                                    <div class="banner__container--bottom  banner__container--left  ">
+                                        <div class="banner__caption">
+                                            <div>
+                                                <h2 class="heading--medium"><span class="span">Ukraine <br>
+                                                        CRISIS</span></h2>
+                                            </div>
+                                            <div class="banner__action">
+                                                <div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="container parbase">
+                <section class="section--white " data-s-region-id="Panel||Region 3 of 5||Anonymous">
+                    <div class="section__container">
+                        <div class="textarea parbase">
+                            <h1 class="heading--small text--center text--no-case">Help Save Children in Ukraine</h1>
+                            <p class="text--center">Ukraine is the second-largest&nbsp;country in Europe, after Russia, and has an estimated population of 44 million. Sadly, children in Eastern Ukraine have grown up in <a title="Countries in Conflict: Worst Places to Be A Child" href="donate.php" data-s-object-id="Text|conflict|Countries in Conflict: Worst Places to Be A Child" data-di-id="di-id-a868ca8e-464316f4">conflict</a> for the past eight years, <strong>enduring violence, shelling and being displaced from their homes</strong>.&nbsp;Today, fighting in Ukraine has forced children and families to <a title="Ukrainian Refugees" href="donate.php" data-s-object-id="Text|seek refuge in neighboring countries|Ukrainian Refugees" data-di-id="di-id-9462c820-86c4defd">seek refuge in neighboring countries</a>, with <a title="Ukraine Women Share Their Stories from the Border" href="donate.php" data-s-object-id="Text|two million people having now crossed the borders|Ukraine Women Share Their Stories from the Border" data-di-id="di-id-d642d61a-58e732f9">two million people having now crossed the borders</a>.</p>
+                            <p class="text--center"><strong>Ukraine’s children are caught in the crossfire of this adult war. It should never have come to this.</strong></p>
+                            <p class="text--center">Save the Children has been operating in Ukraine since 2014, delivering essential humanitarian aid to children and their families.&nbsp;<strong>Your donation to the Children's Emergency Fund can help provide children and families impacted by the conflict in Ukraine and around the world with immediate aid</strong>, such as food, water, hygiene kits, psychosocial support and cash assistance. Together, we can protect children in crisis.</p>
+                        </div>
+                        <div class="ctabutton parbase">
+                            <p class="text--center">
+                                <a class="button--red button--large " target="_self" href="donate.php" data-link-type="button" data-name="DONATE NOW" data-s-object-id="Button|DONATE NOW|" data-di-id="di-id-ffb5a6a8-8b99c02e">DONATE NOW</a>
+                            </p>
+                        </div>
+                        <div class="container parbase">
+                            <section class="section--biscuit-light " data-s-region-id="Panel||Region 1 of 3||Anonymous">
+                                <div class="section__container">
+                                    <div class="textarea parbase">
+                                        <h3 class="heading--small text--no-case text--center"><a id="current" data-di-id="#current"></a>What is the current situation in Ukraine?</h3>
+                                    </div>
+                                    <div class="textarea parbase">
+                                        <p class="text--center">Today, war is forcing children and families across Ukraine into basements and bomb shelters to escape explosions.&nbsp;<br>
+                                        </p>
+                                        <p class="text--center">In Eastern Ukraine, <strong>more than 400,000 children</strong> live in the areas at high risk of the direct impacts of the presence of soldiers and artillery, including <strong>being injured or killed by guns, landmines and <a title="4 Times a Hospital Was the Target of an Attack" href="donate.php" data-s-object-id="Text|explosive weapons|4 Times a Hospital Was the Target of an Attack" data-di-id="di-id-963f8e06-14fce88e">explosive weapons</a></strong>, or<strong> being displaced from their homes</strong>.&nbsp;</p>
+                                        <p class="text--center">Temperatures in the capital of Kyiv are dropping below freezing, and <strong>displaced children may face long nights and days exposed to brutal conditions</strong>. Many families forced to flee will require help with their shelter, food, and clean water needs.</p>
+                                        <p class="text--center"><a title="Refugee Advocacy: How to Advocate for Refugees" href="donate.php" data-s-object-id="Text|Children on the move|Refugee Advocacy: How to Advocate for Refugees" data-di-id="di-id-19b0f938-1b7a033">Children on the move</a> across Eastern Europe are at risk of hunger, illness, trafficking and abuse. <a title="Ukraine Women Share Their Stories from the Border" href="donate.php" data-s-object-id="Text|Distressed children and mothers have been forced to leave fathers and husbands behind|Ukraine Women Share Their Stories from the Border" data-di-id="di-id-2fe83201-71c28d7a">Distressed children and mothers have been forced to leave fathers and husbands behind</a> after authorities ordered Ukrainian men aged 18-60 to stay and fight.</p>
+                                        <p class="text--center">Every effort should be made to find a diplomatic solution and avert a catastrophic war. <strong>Children must be protected from harm at all times.</strong></p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="container parbase">
+                            <section class="section--white " data-s-region-id="Panel||Region 2 of 3||Anonymous">
+                                <div class="section__container">
+                                    <div class="textarea parbase">
+                                        <h3 class="heading--small text--no-case text--center"><a id="challenges" data-di-id="#challenges"></a>What are the challenges for children growing up in conflict in Ukraine?</h3>
+                                        <p class="text--center">Many children in Ukraine have already witnessed or experienced acts of violence over eight years of conflict.&nbsp;</p>
+                                    </div>
+                                    <div class="columncontrol parbase">
+                                        <div class="column__row--2   column--center  ">
+                                            <div class="column" data-s-region-id="Grid|Main|Region 2 of 3|Grid 1 of 2|Anonymous">
+                                                <div>
+                                                    <div class="infographiclist parbase section">
+                                                        <ul class="summary__list--vertical">
+                                                            <li class="summary">
+                                                                <span class="summary__circle"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="60" height="60" viewbox="0 0 600 600" xml:space="preserve" class="summary__icon icon svg--replaced" data-di-res-id="2a8a9ed4-3936ffa2" data-di-rand="1646997353020">
+                                                                        <g class="icon--tent">
+                                                                            <path class="tent" d="M449.988,425.212c-7.688,0.329-49.321-0.137-74.879-1.302   c11.688-11.676,26.476-27.6,43.264-56.09c16.472-27.943-6.264-53.542-20.077-74.756c-11.539-17.747-64.943-93.873-81.991-119.061   c21.639,13.773,113.716,71.96,125.666,79.525c10.032,6.345,12.471,23.063,14.033,32.588c2.508,15.293,13.841,83.595,17.185,113.346   C476.533,429.214,469.393,424.362,449.988,425.212 M279.359,428.433c-17.637,0.109-114.086,2.262-141.234,2.453   c-4.098,0.027-15.458-1.274-12.279-24.653c4.659-34.233,11.772-105.919,13.074-114.854c1.301-8.949,1.301-20.624,16.335-30.258   c15.02-9.634,118.882-70.727,126.543-74.55c10.977-5.468,12.32-0.959,12.32,5.577c0,6.551,0.137,201.217,0.274,208.781   C294.652,414.988,293.803,428.351,279.359,428.433 M338.464,419.045c-5.646-3.056-9.894-27.818-11.895-57.57   c-1.781-26.312-11.402-154.074-13.595-183.195c20.172,32.479,47.676,82.882,69.809,117.731   c12.142,19.103,28.682,38.426,13.854,65.012C381.741,387.718,351.894,426.281,338.464,419.045 M563.005,436.737   c0,0-81.114-161.393-88.254-176.919c-4.577-9.894-13.539-14.869-22.9-20.063c-8.51-4.714-117.416-64.56-134.189-76.756   c-16.773-12.211-25.53-4.331-31.3-1.234c-3.522,1.878-125.775,69.85-141.795,79.771c-16.007,9.909-22.543,21.434-27.902,32.096   c-4.44,8.894-60.928,113.674-79.908,148.332c-2.275,4.152,3.248,6.565,10.771,10.785c7.633,4.29,14.54,6.633,16.678,3.029   c5.769-9.689,34.781-67.863,60.38-125.831c-3.289,28.08-8.031,77.854-12.813,105.206c-4.153,23.735,5.975,26.833,15.253,26.942   c27.435,0.343,143.357,1.508,163.955,1.508c20.583,0,17.527-21.707,17.527-29.944c0-6.111-0.411-135.519-0.63-202.162   c4.344,54.46,10.936,137.384,12.47,158.871c2.344,32.726,4.03,71.7,28.916,71.7c15.622,0,103.15,0.767,114.867,0.767   c11.731,0,31.835,1.591,28.135-31.163c-3.577-31.766-11.018-77.962-15.595-108.001c23.584,43.606,70.781,130.147,72.946,134.327   C553.59,445.687,567.075,445.576,563.005,436.737"></path>
+                                                                        </g>
+                                                                    </svg></span>
+                                                                <span class="summary__text">The Ukraine crisis has already forced at least 1.5 million people from their homes</span>
+                                                            </li>
+                                                            <li class="summary">
+                                                                <span class="summary__circle"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 77.4 82" width="77.4" height="82" class="summary__icon icon svg--replaced" data-di-res-id="a89ecceb-35f80555" data-di-rand="1646997353021">
+                                                                        <g>
+                                                                            <path class="icon__path--color" d="M49.1,45.8c-0.9,1.7-0.9,3.8-0.7,5.8c1.4,10.7,3.1,22.9,2.7,26.6c-0.1,1.5-2.2,2.1-3.5,1   c-2.3-2.1,0.2-20.1-6.8-19.4c-5.4,0.6-3.8,18.4-6.6,20.1c-1.4,0.9-4.1,0.7-3.8-0.9c1.3-6.2,1.8-31,0.5-32.4   c-0.7-0.8-3.3,0.3-2.6,1.1c2.1,2.1,0.4,27.6,0,31.6c-0.4,3.2,6.4,3.5,8.1,0.9c1.2-1.9,2.1-18.3,4.5-18.6c4.9-0.4,1.6,14.4,4.4,18.6   c1.5,2.3,5.8,1.6,6.9,0.2c2.2-2.8,0.1-12.3-0.8-22.7c-0.4-4.5-1-9.5,1.1-12H49.1z"></path>
+                                                                            <path class="icon__path--color" d="M77.2,29.3c0.7-1-22.2-24.2-33.9-28.5C36.4-1.8,18.4,9.1,7.3,22c-2.6,3.1-5,5.6-6.2,8.4c-1,2.4,0.4,4,4.8,0.2   c0.8-0.7,24.6-27,35.6-25c4.8,0.9,9.4,3.9,32.4,25C75.4,31.8,76.2,30.7,77.2,29.3 M49.2,28.5c0.4-4.5-2.8-8.5-7.2-8.8   c-4.4-0.3-8.3,3-8.7,7.6c-0.4,4.5,2.8,8.5,7.2,8.8C44.9,36.4,48.8,33,49.2,28.5 M40,34.5c-3.3-0.3-5.7-3.3-5.4-6.7   c0.3-3.4,3.3-6,6.6-5.7c3.3,0.3,5.7,3.3,5.4,6.7S43.3,34.8,40,34.5 M52.7,45.8c0.2-0.2,0.4-0.4,0.6-0.6   c4.9-3.8,14.1-11.4,12.7-16.6c-0.3-1-0.8-1.6-1.7-2.1c-4.2-2-8.6,7.2-14.2,9.6c-10.5,4.5-19.9,0.6-28.1-6.6   c-3.5-3.1-5.1-2.7-6.9-1.7c-6.1,3.4,5.2,14.8,13,16.2c0.8,0.1,3-0.7,1.8-0.9C24,42.5,15,34.1,15.4,30c0-0.4,1.6-2.1,5.3,1.5   c7.8,7.6,18.8,11.9,29.9,6.9c5.7-2.6,8.6-9.2,11.7-10.3c1.2-0.4,2.5,1.4,2.2,2.5c-1.1,3-5.1,8.7-13.5,13.2   c-0.9,0.5-1.5,1.1-1.9,1.9L52.7,45.8z"></path>
+                                                                        </g>
+                                                                    </svg></span>
+                                                                <span class="summary__text">Over 400,000 children currently live in the conflict zone</span>
+                                                            </li>
+                                                            <li class="summary">
+                                                                <span class="summary__circle"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 66.4 83" width="66.4" height="83" class="summary__icon icon svg--replaced" data-di-res-id="a89ecceb-e32fc418" data-di-rand="1646997353021">
+                                                                        <path class="icon__path--color" d="M53,37.8c0,0.3,0,0.7-0.1,1c-0.1,0.3-0.1,0.7-0.2,1.1c-0.1,0.4-0.1,0.8-0.2,1.2c-0.1,0.5-0.2,0.9-0.4,1.4  c-0.6,2-1.5,4.4-3.1,6.9c-1.6,2.5-3.8,5-6.7,7c-3,2-6.6,3.6-10.7,4.1c-0.5,0.1-1,0.1-1.6,0.1l-0.8,0.1l-0.4,0c-0.1,0,0,0,0,0h0  l-0.1,0l-0.2,0c-1.1-0.1-2.4,0-3.3-0.2c-0.5-0.1-1-0.1-1.6-0.2c-0.5-0.1-1.1-0.3-1.6-0.4c-0.5-0.1-1.1-0.3-1.6-0.5  c-0.5-0.2-1.1-0.3-1.6-0.6c-2.1-0.9-4-2.2-5.9-3.6c-1.8-1.5-3.4-3.3-4.8-5.3c-1.3-2-2.4-4.2-3.1-6.6C4.4,41,4,38.5,4,36L4,34.1  c0-0.7,0.1-1.3,0.2-1.9c0.1-0.6,0.1-1.2,0.3-1.8L5,28.7c0.7-2.2,1.7-4.4,2.9-6.4c3.3,1.7,18.8,8.6,32.3,1.9c2.2,2.3,6.9,6.7,12.8,9  c0,0.1,0,0.1,0,0.2c0,0.3,0,0.7,0.1,0.9c0,1,0.1,1.5,0.1,1.7C53.1,36.2,53.1,36.8,53,37.8 M65.5,12.2c-1-2.4-3-4.1-5.9-5.1  c-3.2-1-6-0.8-8.3,0.7c-2.2,1.4-3.7,3.6-4.6,5.6c-0.6-0.5-1.3-1-2-1.5C42.9,10.9,41,9.8,38.8,9c-0.5-0.2-1.1-0.4-1.6-0.6  c-0.6-0.1-1.1-0.3-1.7-0.4c-1.1-0.3-2.4-0.4-3.6-0.6c-0.6-0.1-1.1-0.1-1.7-0.1l-0.9,0l-0.4,0c0.1,0-0.1,0-0.1,0l-0.1,0l-0.1,0  l-0.2,0c-1.2,0.1-2.5,0.1-3.7,0.4c-1.7,0.2-3.4,0.7-5,1.3c-0.6-2.3-1.8-5.8-4.6-7.6C13-0.1,10.5-0.3,7.5,0.7c-2.8,0.9-4.7,2.6-5.8,5  c-2.4,5.5,0.7,12.9,0.9,13.2c0.1,0.1,0.2,0.2,0.4,0.2c0,0,0,0,0,0c0.1,0,0.3-0.1,0.4-0.2c0-0.1,4.7-7.6,8.8-7.4c0.5,0,1,0.2,1.4,0.5  c-1,0.6-1.9,1.3-2.8,2.1c-2,1.8-3.8,3.8-5.4,6.1c-1.5,2.3-2.7,4.9-3.5,7.5l-0.5,2c-0.2,0.7-0.2,1.4-0.4,2.1  c-0.1,0.7-0.2,1.4-0.2,2.1L0.5,36c0.1,2.8,0.4,5.6,1.2,8.3c0.8,2.7,2,5.3,3.4,7.6c1.5,2.3,3.3,4.4,5.4,6.2c0.5,0.4,1.1,0.8,1.6,1.3  l0.8,0.6l0.8,0.5c0.6,0.3,1.1,0.7,1.7,1c0.6,0.3,1.2,0.6,1.8,0.9c0,0,0.1,0,0.1,0c-0.2,0.2-0.5,0.4-0.7,0.6c-1.6,1.4-2.9,3-4.1,4.4  c-1.2,1.5-2.2,2.9-3.1,4.3c-0.9,1.4-1.7,2.7-2.3,3.8c-0.7,1.2-1.2,2.2-1.6,3c-0.4,0.9-0.7,1.5-1,2l-0.2,0.4c-0.1,0.3-0.1,0.6,0,0.9  c0.3,0.6,1.1,0.9,2.8,1l0,0c0,0,0.1-0.2,0.4-0.6c0.2-0.4,0.6-1,1.1-1.8c0.5-0.8,1.1-1.7,1.8-2.7c0.7-1,1.5-2.2,2.5-3.4  c0.9-1.2,2-2.5,3.2-3.8c1.2-1.2,2.4-2.6,3.9-3.7c1.1-0.9,2.3-1.7,3.5-2.4c0.4,0.1,0.9,0.2,1.3,0.2c1.4,0.3,2.4,0.3,3.6,0.4l0.2,0  l0.1,0l0.1,0l0.2,0l0.5,0l0.9,0c0.6,0,1.2,0,1.8-0.1c1.2-0.1,2.4-0.3,3.5-0.6c0.1,0.1,0.2,0.1,0.3,0.2l0.5,0.4  c0.4,0.3,0.7,0.5,1,0.8c0.1,0,0.1,0.1,0.1,0.1c0.6,0.6,1.2,1.1,1.8,1.7c0.3,0.3,0.6,0.7,0.9,1c0.6,0.7,1.1,1.3,1.6,2  c0.5,0.7,1,1.3,1.5,2c0.4,0.7,0.8,1.4,1.2,2c0.2,0.3,0.4,0.6,0.6,0.9c0.2,0.3,0.3,0.6,0.5,0.9c0.3,0.6,0.6,1.2,0.9,1.7  c0.6,1.1,1.1,2.1,1.4,2.9c0.2,0.4,0.5,0.8,0.8,1.1c0.4,0.4,0.9,0.5,1.5,0.4c1.1-0.2,3-0.8,3.5-1.9c0.1-0.6,0.1-1.4-0.4-2.3  c-0.4-0.9-0.9-1.9-1.6-3.1c-0.3-0.6-0.7-1.2-1-1.9c-0.2-0.3-0.4-0.7-0.6-1c-0.2-0.3-0.4-0.7-0.7-1c-0.4-0.7-0.9-1.4-1.4-2.2  c-0.5-0.7-1.1-1.5-1.7-2.3c-0.6-0.8-1.2-1.5-1.9-2.3c-0.4-0.4-0.7-0.8-1.1-1.2c-0.4-0.4-0.8-0.7-1.2-1.1c-0.1-0.1-0.2-0.1-0.2-0.2  c1-0.5,1.9-1,2.8-1.6c3.6-2.4,6.2-5.3,8.2-8.2c1.9-2.9,3-5.8,3.7-8.2c0.1-0.6,0.3-1.2,0.4-1.7c0.1-0.6,0.2-1.1,0.2-1.6  c0.1-0.5,0.1-1,0.2-1.4c0.1-0.4,0-0.7,0.1-1.1c0-1.2,0.1-1.9,0.1-1.9l0-0.1c0,0,0-0.7-0.1-2.1c0-0.3,0-0.7-0.1-1.1  c-0.1-0.4-0.1-0.9-0.2-1.3c-0.1-0.5-0.1-1-0.3-1.5c-0.1-0.5-0.3-1.1-0.5-1.7c-0.7-2.4-1.8-5.3-3.7-8.1c0-0.1-0.1-0.1-0.1-0.2  c0.1,0,0.2,0,0.2,0c2.7-0.1,6,5.1,7,7.1c0.1,0.1,0.2,0.2,0.4,0.2c0,0,0,0,0,0c0.2,0,0.3-0.1,0.4-0.3c0-0.1,0.5-1.4,0.9-3.1  c0.8,1.1,1.3,1.9,1.4,1.9c0.1,0.1,0.2,0.2,0.4,0.2h0c0.1,0,0.3-0.1,0.4-0.2C63.9,25.4,67.8,17.9,65.5,12.2"></path>
+                                                                    </svg></span>
+                                                                <span class="summary__text">Child poverty rates are up more than 57% in the the Donetsk and Luhansk regions of Ukraine</span>
+                                                            </li>
+                                                            <li class="summary">
+                                                                <span class="summary__circle"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 54.8 74.5" width="54.8" height="74.5" preserveaspectratio="xMidYMid meet" class="summary__icon icon svg--replaced" data-di-res-id="a89ecceb-5f60c25" data-di-rand="1646997353021">
+                                                                        <g>
+                                                                            <path d="M21.9,38.8l-0.4-10.7c0-0.4,0.3-0.7,0.6-0.7l0.1,0c0.2,0,0.5,0,0.7,0l0.7,0c0.5,0,1,0,1.5,0.1l1.5,0.1l1.5,0.1   c0.5,0,1,0,1.5,0.1c0.5,0,1,0,1.5,0l0.7,0l0.7,0c0.5,0,1,0,1.5-0.1c0.2,0,0.4,0.1,0.4,0.4v0l0,0.1c0,0.2,0,0.5,0.1,0.7l0,0.7   l0.1,1.5c0,1,0.1,2,0.1,3c0,1,0.1,2,0.1,3l0,1.5c0,0.5,0,1,0,1.5c0,0.4-0.3,0.8-0.8,0.8l-0.1,0c-0.2,0-0.5,0-0.7,0   c-0.2,0-0.5,0-0.7,0c-0.5,0-0.9,0-1.4,0c-0.5,0-0.9,0-1.4,0l-1.4,0l-1.4,0c-0.5,0-0.9,0-1.4-0.1c-0.5,0-0.9,0-1.4-0.1l-0.7,0   l-0.3,0l-0.2,0c-0.1,0-0.1,0-0.2-0.1c-0.1-0.3-0.1-0.7,0-1c0.1-0.2,0.1-0.1,0.2-0.1l0.2,0l0.3,0l0.7,0c0.5,0,0.9,0,1.4-0.1   c0.5,0,0.9,0,1.4-0.1l1.4,0l1.4,0c0.5,0,0.9,0,1.4,0c0.5,0,0.9,0,1.4,0c0.2,0,0.5,0,0.7,0c0.2,0,0.5,0,0.7,0L33,40c0-0.5,0-1,0-1.5   l0-1.5c0-1,0.1-2,0.1-3c0-1,0.1-2,0.1-3l0.1-1.5l0-0.7c0-0.2,0-0.5,0.1-0.7l0.4,0.4c-0.5,0-1-0.1-1.5-0.1l-0.7,0l-0.7,0   c-0.5,0-1,0-1.5,0c-0.5,0-1,0-1.5,0.1l-1.5,0.1l-1.5,0.1c-0.5,0-1,0.1-1.5,0.1l-0.7,0c-0.2,0-0.5,0-0.7,0l0.7-0.7l-0.4,10.7   c0,0.2-0.2,0.3-0.4,0.3C22.1,39.1,21.9,39,21.9,38.8"></path>
+                                                                            <path d="M10.7,61.7l0-0.9l-0.2-13.5l-0.1-3.6l0-1.8c0-0.6,0-1.1,0-1.7c0.1-2.3,0.4-4.5,1-6.6c0-0.1,0.1-0.3,0.1-0.4   l0.1-0.4c0.1-0.3,0.2-0.5,0.3-0.8l0.3-0.8c0.1-0.1,0.1-0.3,0.2-0.4l0.2-0.4l0.4-0.7l0.4-0.7c0.1-0.1,0.1-0.2,0.2-0.3l0.2-0.3   l0.2-0.3c0.1-0.1,0.2-0.2,0.3-0.3l0.5-0.6c0.1-0.1,0.2-0.2,0.3-0.3l0.3-0.3c0.1-0.1,0.2-0.2,0.3-0.3l0.3-0.3l0.3-0.3l0.2-0.1   l0.2-0.1c0.9-0.7,1.8-1.2,2.8-1.7c2-1,4.2-1.6,6.4-1.9c0.6-0.1,1.1-0.1,1.7-0.1l0.2,0l0.2,0l0.5,0c0.3,0,0.6,0,0.9,0   c1.1,0,2.3,0.2,3.4,0.4c2.2,0.4,4.3,1.3,6.1,2.6c1.8,1.3,3.3,3.1,4.4,5.1c0.6,1,1.1,2,1.5,3.1c0.4,1.1,0.7,2.2,1,3.3   c0.3,1.1,0.5,2.3,0.6,3.5c0.1,0.6,0.1,1.2,0.1,1.7c0,0.1,0,0.3,0,0.4l0,0.4l0,0.9c0,2.4,0,4.8,0,7.2l0,7.2l0,3.6l0,0.9l0,0.1v0   c0,0,0,0,0,0l0,0l0,0.2l0,0.2l0,0.2c-0.1,0.5-0.3,1-0.5,1.4c-0.5,0.9-1.4,1.5-2.4,1.8c-0.5,0.2-1.1,0.3-1.6,0.3c-0.3,0-0.6,0-0.8,0   c-0.1,0-0.3,0-0.4,0l-0.2,0c-0.1,0-0.1,0-0.2,0h0c0,0,0,0-0.1,0l-13.4,0l-6.7,0l-3.3,0l-1.7,0l-0.8,0l-0.4,0h-0.1h0h0c0,0,0,0,0,0   l0,0l-0.1,0l-0.2,0h0h-0.5c-0.6,0-0.9,0-1.1,0.3c-0.7,0.9-0.5,1.3,0.8,1.4l0.7,0l0.2,0l0.1,0l0.1,0l0.4,0l0.8,0l1.7,0l3.3,0l6.7,0   l13.4,0l-0.1,0c0.1,0,0.2,0,0.3,0l0.2,0c0.2,0,0.3,0,0.5,0c0.3,0,0.6,0,1-0.1c0.6-0.1,1.3-0.2,1.9-0.4c0.6-0.2,1.2-0.5,1.8-0.9   c0.6-0.4,1-0.9,1.4-1.5c0.4-0.6,0.6-1.3,0.7-1.9l0-0.2l0-0.2l0-0.2l0-0.1c0,0,0-0.1,0-0.1v0v-0.1l0-0.9l0-3.6l0-7.2   c0-2.4,0-4.8,0-7.2l0-0.9l0-0.4c0-0.2,0-0.3,0-0.5c0-0.6,0-1.2-0.1-1.8c-0.1-1.2-0.3-2.4-0.5-3.6c-0.5-2.4-1.2-4.8-2.4-7   c-1.1-2.2-2.7-4.3-4.7-5.9c-0.5-0.4-1-0.8-1.6-1.1c-0.5-0.3-1.1-0.7-1.7-0.9c-1.2-0.6-2.4-1-3.6-1.3c-1.2-0.3-2.5-0.5-3.8-0.6   c-0.3,0-0.6,0-0.9,0l-0.4,0l-0.1,0l-0.1,0l-0.2,0c-0.7,0-1.3,0-1.9,0.1c-2.5,0.2-5,0.9-7.4,1.9c-1.2,0.5-2.3,1.2-3.3,2l-0.2,0.1   l-0.2,0.2l-0.4,0.3l-0.4,0.3c-0.1,0.1-0.2,0.2-0.4,0.3l-0.4,0.3c-0.1,0.1-0.2,0.2-0.3,0.3l-0.7,0.7c-0.1,0.1-0.2,0.2-0.3,0.4   l-0.3,0.4L11.2,27c-0.1,0.1-0.2,0.3-0.3,0.4l-0.5,0.8l-0.5,0.8l-0.2,0.4c-0.1,0.1-0.1,0.3-0.2,0.4l-0.4,0.9   c-0.1,0.3-0.2,0.6-0.4,0.9l-0.2,0.5c-0.1,0.2-0.1,0.3-0.2,0.5c-0.8,2.4-1.2,5-1.3,7.5C7,40.7,7,41.4,7,42l0,1.8l0,3.6l0,13.4v1   c0,0,0,0,0,0l0,0.8c0,0.4,0,0.7,0,1.1c0,1,0.3,1.3,0.8,1.3c1.4,0,2.7,0.2,2.8-0.8c0,0,0.1-0.4,0.1-1.4L10.7,61.7z"></path>
+                                                                            <path d="M15.8,48.8L41,49.4c0,0,0.1,0,0.1,0l0.8,0c0.3,0,0.6,0,1,0c0.8,0,1.1-0.3,1.1-0.7c0-1.1,0.1-2.3-0.7-2.4   c0,0-0.4-0.1-1.2-0.1l-1,0l-25.3,0.6l-1.2,0.1c-0.8,0-1.1,0-1.3,0.3c-0.8,1.1-0.6,1.4,1,1.5L15.8,48.8z"></path>
+                                                                            <path d="M48.3,73.8c0,0-0.7,0-2.1,0c-1.4,0-3.5,0.1-6.1,0.1c-2.6,0-5.8,0.1-9.4,0.2c-3.6,0-7.7,0.1-12.2,0.2   c-2.2,0-4.6,0.1-7,0.1c-0.6,0-1.2,0-1.8,0c-0.3,0-0.6,0-0.9,0H8.6l-0.1,0l-0.1,0l-0.2,0H8.1c0,0-0.1,0-0.1,0l-0.1,0   c-0.1,0-0.2,0-0.3,0c-0.8-0.1-1.6-0.3-2.4-0.7c-0.8-0.4-1.5-0.9-2.2-1.5c-0.6-0.6-1.1-1.3-1.5-2.1c-0.4-0.7-0.6-1.5-0.8-2.2   c-0.2-0.8-0.3-1.5-0.4-2.3c0-0.2,0-0.4,0-0.6l0-0.5c0-0.3,0-0.7,0-1c0-1.3,0-2.7,0-4.1c0-1.4,0-2.8,0.1-4.2c0-0.7,0-1.4,0-2.1   c0-0.7,0-1.4,0-2.1c0-1.4,0.1-2.9,0.1-4.3c0.1-2.9,0.1-5.8,0.2-8.8c0-1.5,0.2-3,0.4-4.5c0.2-1.5,0.5-3,0.9-4.5   c0.4-1.5,0.9-2.9,1.5-4.4c0.6-1.4,1.3-2.8,2.2-4.1c0.8-1.3,1.8-2.5,2.9-3.6c1.1-1.1,2.3-2.1,3.5-3c2.5-1.8,5.3-3.1,8.2-4   c1.5-0.4,2.9-0.8,4.5-1c0.8-0.1,1.5-0.2,2.3-0.2c0.2,0,0.4,0,0.6,0h0.3l0.2,0l0.1,0c-0.1,0,0,0,0,0c0.4,0,0.7,0,1.1,0   c3,0.1,6,0.5,8.8,1.6c2.8,1,5.4,2.6,7.5,4.5c2.1,2,3.8,4.3,5.1,6.6c1.3,2.4,2.2,4.9,2.8,7.3c0.6,2.4,1,4.8,1.2,7.1   c0,0.6,0.1,1.2,0.1,1.7c0,0.6,0,1.2,0,1.7c0,1.1,0,2.1,0,3.1c0,1,0,2,0,3c0,1,0,1.9-0.1,2.8c0,0.9,0,1.8-0.1,2.6   c0,0.9,0,1.7-0.1,2.5c0,1.6-0.1,3-0.1,4.3c-0.1,2.6-0.2,4.7-0.3,6.1c-0.1,1.4-0.1,2.5-0.1,2.5c-0.1,1-0.5,1.2-1.2,0.6   c-0.2-0.1-0.2-0.3-0.2-0.9l0-0.1c0,0,0-0.7,0-2.1c-0.1-1.4-0.2-3.5-0.3-6.1c0-1.3-0.1-2.8-0.1-4.3c0-0.8,0-1.6-0.1-2.5   c0-0.8,0-1.7-0.1-2.6c0-0.9,0-1.8-0.1-2.8c0-1,0-2,0-3c0-1,0-2.1,0-3.1c0-0.3,0-0.5,0-0.8c0-0.3,0-0.5,0-0.8c0-0.5-0.1-1.1-0.1-1.6   c-0.1-1.1-0.3-2.2-0.5-3.3c-0.2-1.1-0.4-2.2-0.7-3.3c-0.2-0.6-0.3-1.1-0.5-1.7c-0.2-0.6-0.4-1.1-0.6-1.7c-0.4-1.1-0.9-2.2-1.5-3.3   c-0.6-1.1-1.2-2.1-1.9-3.1c-0.7-1-1.5-1.9-2.4-2.8c-0.9-0.9-1.9-1.7-3-2.3c-1.1-0.7-2.2-1.3-3.5-1.7c-2.4-1-5.1-1.5-7.9-1.6   c-0.3,0-0.7,0-1,0l-0.1,0l0,0l-0.1,0l-0.2,0c-0.2,0-0.3,0-0.5,0c-0.7,0-1.4,0-2.1,0.1c-1.4,0.1-2.8,0.3-4.2,0.6   c-2.8,0.6-5.5,1.6-7.9,3.2c-2.4,1.6-4.4,3.8-5.9,6.2l-0.3,0.5l-0.3,0.5c-0.1,0.2-0.2,0.3-0.3,0.5l-0.2,0.5c-0.2,0.3-0.3,0.7-0.4,1   c-0.1,0.3-0.3,0.7-0.4,1c-0.5,1.3-0.9,2.7-1.2,4.2c-0.3,1.4-0.5,2.8-0.6,4.3s-0.1,2.9-0.1,4.3C3.4,43.7,3.6,49.4,3.8,55   c0,1.4,0.1,2.8,0.1,4.2c0,1.4,0.1,2.7,0.1,4.1c0,0.3,0,0.7,0,1l0,0.5c0,0.1,0,0.2,0,0.4c0.1,0.5,0.2,1.1,0.3,1.6   c0.3,1,0.8,1.9,1.4,2.5c0.3,0.3,0.6,0.5,1,0.7C7.1,70,7.5,70.1,8,70.2c0.1,0,0.1,0,0.2,0l0.1,0c0,0-0.1,0,0,0l0.1,0l0.2,0l0.1,0   c0,0-0.1,0,0,0h0.1c0.3,0,0.6,0,0.9,0c0.6,0,1.2,0,1.8,0c2.4,0,4.7,0.1,7,0.1c4.5,0.1,8.6,0.1,12.2,0.2c3.6,0.1,6.8,0.1,9.4,0.2   c2.6,0.1,4.7,0.1,6.1,0.1c1.4,0,2.1,0,2.1,0l1.1,0.1c0.7,0,1,0.1,1,0.1c0.8,0.1,0.6,1.1,0.6,2.2c0,0.4-0.3,0.7-1,0.6   c-0.3,0-0.5,0-0.8,0L48.3,73.8z"></path>
+                                                                            <path d="M38.7,6.5v-5V1.4c0-0.7,0.6-1.3,1.3-1.3c0,0,0.1,0,0.1,0L51,0.7l0.1,0c0.4,0,0.7,0.4,0.7,0.8l-0.3,13v0.1   c0,0.8-0.1,0.9-0.7,0.6c-0.2-0.1-0.2-0.2-0.2-0.6l0-0.1l-0.3-13L51,2.2L40.1,2.9l1.4-1.4v5l0,0.7c0,0.7-0.1,1.1-0.1,1.1   C41.4,9,40.4,8.9,39.4,9c-0.4,0-0.7-0.2-0.7-1c0-0.3,0-0.6,0-0.9L38.7,6.5z"></path>
+                                                                            <path d="M18.1,6.5v-5V1.4c0-0.7-0.6-1.3-1.3-1.3c0,0-0.1,0-0.1,0L5.9,0.7l-0.1,0c-0.4,0-0.7,0.4-0.7,0.8l0.3,13v0.1   c0,0.8,0.1,0.9,0.7,0.6c0.2-0.1,0.2-0.2,0.2-0.6l0-0.1l0.3-13L5.9,2.2l10.8,0.6l-1.4-1.4v5l0,0.7c0,0.7,0.1,1.1,0.1,1.1   C15.4,9,16.4,8.9,17.4,9c0.4,0,0.7-0.2,0.7-1c0-0.3,0-0.6,0-0.9L18.1,6.5z"></path>
+                                                                        </g>
+                                                                    </svg></span>
+                                                                <span class="summary__text">Since the beginning of the conflict, over 750 education facilities have become damaged</span>
+                                                            </li>
+                                                            <li class="summary">
+                                                                <span class="summary__circle"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="60" height="60" viewbox="0 0 600 600" xml:space="preserve" preserveaspectratio="xMidYMid meet" class="summary__icon icon svg--replaced" data-di-res-id="ba2b6305-7425b1b2" data-di-rand="1646997353022">
+                                                                        <g>
+                                                                            <path d="M201.096,60.354c-7.445,5.883-7.507,13.204-7.055,31.776   c0.556,23.036,1.111,77.722,1.111,90.701c0,19.723,2.242,20.813-18.819,20.813c-24.166,0-82.719-2.057-103.164-2.118   c-19.62-0.082-25.667,9.09-29.616,25.544c-8.905,37.143-1.974,100.613,0.432,117.396c5.656,39.51,26.408,62.564,39.899,64.251   c13.492,1.666,80.376,1.666,91.585,1.666c11.25,0,13.492,3.847,14.623,10.695c3.353,20.484,4.669,71.326,4.505,104.891   c-0.063,12.341,9.316,5.944,13.471,2.818c7.26-5.45,5.758-56.127,5.059-71.943c-0.576-13.513,0-39.899-1.111-55.058   c-1.131-15.179-13.471-19.683-25.482-19.683c-9.564,0-55.449-0.556-72.869-0.556s-28.217-4.833-32.927-22.438   c-12.567-46.975-12.649-70.976-6.397-121.427c1.069-8.638,5.143-15.158,18.799-15.158c10.119,0,92.654-0.884,104.479-0.884   c18.203,0,19.437-2.201,19.437-21.596c0-11.804-0.556-88.252-0.556-98.35c0-13.944,3.949-24.722,14.047-30.336   c10.119-5.636,41.586-11.621,70.38-11.621c36.239,0,53.31,6.067,66.739,11.045c14.007,5.182,14.727,19.867,14.727,35.252   c0,24.104,1.131,67.767,1.584,82.781c0.555,19.086,4.504,21.843,21.903,22.459c32.495,1.152,69.558,5.554,87.286,6.314   c32.948,1.378,32.084,6.994,38.028,53.248c4.504,34.922-3.353,79.697-6.17,90.947c-2.818,11.229-3.394,19.662-18.963,19.662   c-8.433,0-100.737-2.797-111.966-3.373c-11.251-0.555-15.179,3.373-14.624,11.25c0.576,7.878,1.686,41.113,3.374,74.802   c1.686,33.751,6.189,43.314-24.723,51.727c-30.911,8.433-85.99,2.817-102.834,0.555c-16.865-2.241-21.924,2.818-29.246,15.734   c-7.301,12.937-7.281,20.237,30.357,25.873c57.032,8.515,111.822,0.555,125.89-2.839c14.026-3.352,21.349-10.098,21.349-29.76   c0-19.683,4.483-96.665,4.483-107.359c0-10.653,8.433-12.937,17.996-12.937c9.543,0,53.392,1.707,81.486-0.534   c28.094-2.242,33.071,3.022,46.069-49.999c12.359-50.409,6.068-107.482,1.09-136.276c-4.38-25.421-19.971-30.891-38.172-30.356   c-17.955,0.534-83.152-0.556-93.847-1.687c-10.675-1.11-13.492-2.365-13.492-13.985c0-15.158-1.81-64.56-2.817-81.26   c-0.844-14.13,1.687-32.619-11.785-38.79c-13.493-6.17-51.993-14.047-93.929-14.047C258.786,38.184,213.744,50.359,201.096,60.354"></path>
+                                                                        </g>
+                                                                    </svg></span>
+                                                                <span class="summary__text">Nearly 3,370 civilians have been killed since the start of the conflict in Ukraine, with more than 7,000 more injured</span>
+                                                            </li>
+                                                            <li class="summary">
+                                                                <span class="summary__circle"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 75.8 82" width="75.8" height="82" class="summary__icon icon svg--replaced" data-di-res-id="ba2b6305-75818cc5" data-di-rand="1646997353022">
+                                                                        <g>
+                                                                            <path class="icon__path--color" d="M58.5,70.9c0.1,3.5,0,6.6-0.1,8.3c-0.1,1.3,1,1.1,1.5,1.2c0.8,0.1,1.5-0.1,1.6-1.2c0.3-2.2,0.5-5.1,0.5-8.2h2   c-0.1,3.2-0.4,6.5-0.9,9c-0.4,1.8-2.2,2.2-3.8,2c-1.1-0.2-2-0.4-2.3-1.7c-0.4-1.6-0.5-5.3-0.7-9.3H58.5z M45.4,70.9   c-0.2,3.5-0.3,6.5-0.2,7.4c0.1,1.1,0.3,1.4,0.9,1.7c0.7,0.4,2.6,0.8,2.6-1c0-1.9,0-4.9,0.1-8.1h2.2c-0.2,4.3-0.5,8.3-1,9.6   c-0.8,1.7-2.7,1.5-4.1,1.1c-0.9-0.3-1.3,0-1.7-1.2c-0.5-1.5-0.6-5.3-0.5-9.5H45.4z M20.9,70.9c-0.1,3.5-1.4,7.8-1,9.2   c0.3,1,1,0.9,1.9,1.2c1.3,0.3,2.6,0.3,3.3-0.7c1-1.3,2.2-4.8,2.3-9.6l-2.3,0c-0.1,2.5-0.5,5.1-1.3,7.8c-0.2,0.7-0.2,1.3-0.9,1.5   c-0.5,0.1-1.3,0.1-1.5-0.7c-0.3-1.2,0.5-5.2,0.7-8.6L20.9,70.9z M12,70.9c-0.1,3.4-0.5,6.6-1.2,8.4c-0.9,2.2,4.2,2.5,5,0.6   c0.5-1.2,1.2-5.5,1.7-9h-1c-0.4,3.5-1,7.6-2,8.3c-0.9,0.6-3.1,0.7-2.7-0.3c1.1-2.3,1.7-5.1,1.9-8H12z"></path>
+                                                                            <path class="icon__path--color" d="M17.6,70.9c0.3-2.5,0.6-4.5,0.6-4.5s1-0.1,1.6,0.4c1,0.8,1.2,2.3,1.2,4.1l1.1,0c0.1-2.4-0.1-4.4-1.1-5.1   c-1.5-0.9-3.9-0.1-3.9-0.1s-0.1,2.4-0.5,5.2L17.6,70.9z M13.8,70.9c0.6-6.9-0.7-14-1.3-14.7c-0.5-0.5-2.2,0.2-1.7,0.7   c0.9,0.9,1.5,7.9,1.2,14L13.8,70.9z M69.2,55.8c0,0,0,0.1,0,0.1c-0.6,2-5,1.7-5,1.7s0.3,6.6,0.1,13.3h-2c0.1-6.3-0.3-13.2-0.4-15.1   H69.2z M56.7,55.8c1.1,1.3,1.7,8.8,1.9,15.1h-2.1c-0.2-6.3-0.5-13.3-1.7-14.1c-0.6-0.4-1.3-0.3-2,0c-1.3,0.5-1.6,7.7-1.9,14.1h-2.2   c0.3-6.3,1-13.6,2.2-15.1H56.7z M46.5,55.8c-0.1,1.8-0.7,9.2-1.1,15.1h-1.9c0.2-6.6,0.8-14,0.8-14s-3.4,0-5.3-1.1H46.5z M23.2,55.8   c-0.3,1,0,2.3,0.4,3.6c0.9,3.5,1.6,7.4,1.5,11.6l2.3,0c0.1-2.1-0.1-4.4-0.4-6.9c-0.4-2.9-1.7-6.7-1.4-8.2H23.2z"></path>
+                                                                            <path class="icon__path--color" d="M50.9,55.8c0.1-0.1,0.2-0.2,0.3-0.3c0.7-0.3,4.7-0.3,5.3,0.1c0,0,0.1,0.1,0.1,0.1H50.9z M67.5,44.5   c1.4,4.6,2.4,9,1.7,11.4l-7.5,0c0-0.4,0-0.6,0-0.6s4.8,0.9,5.4-1.2c0.6-2-0.2-5.6-1.4-9.6H67.5z M44,44.5c-1.4,5-2.5,9-2,9.6   c1.4,1.7,4.6,1.3,4.6,1.3s0,0.1,0,0.4H39c-0.1-0.1-0.2-0.1-0.3-0.2c-0.9-0.6,0.3-5.5,2-11.2H44z M34,44.5c-1.4,2.5-4.6,7-9.6,9.9   c-0.6,0.4-1,0.9-1.1,1.4h2.3c0.1-0.3,0.2-0.5,0.4-0.6c3.4-1.6,7.9-7.7,9.1-10.8H34z M14.1,44.5c0.1,0.3,0.3,0.6,0.4,0.9   c1.7,2.8,4.8,4,7.1,2.7c1.3-0.7,2-2.1,2.1-3.6l-1.4,0c0,1.2-0.6,2.3-1.6,2.9c-1.7,1-4.1,0-5.4-2.1c-0.2-0.3-0.3-0.5-0.4-0.8   L14.1,44.5z M4.6,44.5c0.3,0.4,0.7,0.9,1.1,1.4c5.1,5.2,12.4,8.8,19.6,5.4c3.1-1.5,4.8-4.6,6.7-6.8h-1.7c-1.5,1.8-2.7,3.8-5.3,5   c-6.8,3.1-13.5,0.3-18.5-4.9c0,0,0,0-0.1-0.1H4.6z M0.5,44.5c1.4,3.9,6,9.3,10,10.1c0.5,0.1,1.9-0.5,1.2-0.6   C8.5,53.5,3.2,48,1.6,44.5H0.5z"></path>
+                                                                            <path class="icon__path--color" d="M54.3,12.9c-2.8,0.4-5.6-1.6-6.2-4.5c-0.6-2.9,1.2-5.6,4.1-6c2.8-0.4,5.6,1.6,6.2,4.5   C59,9.7,57.2,12.4,54.3,12.9 M60.5,6c-0.8-3.8-4.5-6.5-8.3-5.9c-3.8,0.6-6.2,4.2-5.4,8c0.8,3.8,4.5,6.5,8.3,5.9   C58.9,13.4,61.3,9.8,60.5,6 M65.7,44.5c-3.4-10.8-10.2-24.6-2.1-19.8c3.7,2.2,5.8,8,7.3,13.3c0.1,0.5,1.1,1.2,1.8,1.1   c0.4-0.1,0.9,0,0.9-1c0.1-2.8-5.7-18.5-15.5-20.6c-7.8-1.6-14,0.9-19.3,6.9c-4.4,5-4.3,11.3-5,16.3c0,0-1.1,0.7-1.2,0.2   c-2-7,2.6-21,14.5-24.8c4.3-1.3,7.7-1.5,12.3-0.2C70,18.7,75.3,36.2,75.2,38.9c0,1.2-1.3,1.3-2.3,1.6c-1.2,0.3-2.5-0.4-2.8-1.3   c-1.1-2.5-1.9-7.8-6.6-12.2c-4.6-4.3,0.8,7.3,4,17.4H65.7z M40.7,44.5c2.9-9.6,7.1-21.5,4.3-18.8c-5.4,5.4-7.9,12.4-9,15.4   c-0.2,0.6-1.1,0-1-0.6c0.6-4.3,2.7-11.9,9.3-16c6.5-4.1,2.5,9.8-0.4,20L40.7,44.5z M32,44.5c0.4-0.4,0.8-0.8,1.2-1.2   c0.4-0.3,0.5-0.1,0.7,0c0.3,0.1,0.6,0.3,0.3,0.7c-0.1,0.2-0.2,0.3-0.3,0.5h1c0.1-0.2,0.1-0.4,0.2-0.6c0.2-0.8-0.5-1.1-1.1-1.4   c-0.6-0.3-0.9-0.7-1.7,0c-0.8,0.6-1.4,1.3-2,2.1L32,44.5z M15,44.5c-0.7-1.9-0.3-3.9,1.2-4.7c1.7-1,4.1,0,5.4,2.1   c0.5,0.9,0.8,1.8,0.7,2.7h1.4c0.1-1.2-0.2-2.5-1-3.8c-1.7-2.8-4.8-4-7.1-2.7c-2,1.1-2.6,3.9-1.5,6.5L15,44.5z M1.6,44.5   C1.2,43.7,1,43,1,42.5c0-0.3,0.6-0.6,0.8-0.8C3,41,3.2,42.5,4.6,44.5h1.9c-2.3-2.5-2.2-4.6-4.8-3.6c-0.4,0.2-1.4,0.5-1.5,0.9   c-0.2,0.7-0.1,1.6,0.3,2.7L1.6,44.5z"></path>
+                                                                        </g>
+                                                                    </svg></span>
+                                                                <span class="summary__text">2.9 million people in Ukraine were already in need of humanitarian assistance</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column" data-s-region-id="Grid|Main|Region 2 of 3|Grid 2 of 2|Anonymous">
+                                                <div>
+                                                    <div class="responsiveimage parbase section">
+                                                        <div>
+                                                            <picture>
+                                                                
+                                                                <img alt="In Ukraine, a girl rides a bicycle outside." src=".dyo/cq5dam.thumbnail.768.768.jpg">
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container parbase">
+                                        <section class="section--biscuit-light " data-s-region-id="Panel||Region 1 of 2||Anonymous">
+                                            <div class="section__container">
+                                                <div class="textarea parbase">
+                                                    <h3 class="heading--small text--no-case text--center">How is Save the Children supporting Ukraine's children in crisis?</h3>
+                                                    <p class="text--center">Save the Children is urgently calling on all parties to the conflict to agree to an immediate cessation of hostilities to reduce the risk to children’s lives and wellbeing.</p>
+                                                </div>
+                                                <div class="columncontrol parbase">
+                                                    <div class="column__row--2   column--center  ">
+                                                        <div class="column" data-s-region-id="Grid|Main|Region 1 of 2|Grid 1 of 2|Anonymous">
+                                                            <div>
+                                                                <div class="responsiveimage parbase section">
+                                                                    <div>
+                                                                        <picture>
+                                                                            
+                                                                            <img alt=" Children and families receive support from Save the Children in Romania after crossing the border from Ukraine." src=".dyo/cq5dam.thumbnail.768.768(1).jpg">
+                                                                        </picture>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="textarea parbase section">
+                                                                    <p><em>Children and families receive support from Save the Children in Romania after crossing the border from Ukraine.</em></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="column" data-s-region-id="Grid|Main|Region 1 of 2|Grid 2 of 2|Anonymous">
+                                                            <div>
+                                                                <div class="textarea parbase section">
+                                                                    <p>Save the Children has been operating in Ukraine since 2014, including in the conflict-impacted regions of Donetsk and Luhansk.&nbsp;</p>
+                                                                    <p>This includes <strong>supporting their access to education</strong>, <strong>providing psychosocial support, distributing winter kits and hygiene kits, and providing cash grants to families so they can meet basic needs such as food, rent and medicines</strong>, or so they can invest in starting new businesses.<br>
+                                                                    </p>
+                                                                    <p>Our specialist teams are also <strong>provide children with access to safe, inclusive, quality education</strong>.</p>
+                                                                    <p>Together with schools and community centers, <strong>we work to help children overcome the mental and psychological impacts of their experiences of conflict and violence</strong>, and increase their resilience and ability to cope with stresses in their daily lives.&nbsp;</p>
+                                                                    <p><strong>We call on all parties to the conflict in Ukraine to ensure full humanitarian access to all caught up in the Ukraine crisis.</strong></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="container parbase">
+                <section class="section--white " data-s-region-id="Panel||Region 4 of 5||Anonymous">
+                    <div class="section__container">
+                        <div class="textarea parbase">
+                            <h4 class="heading--small text--plum text--center text--no-case">How You Can Help Children in Ukraine</h4>
+                            <p class="text--center">You can create change that lasts a lifetime for children in Ukraine – in so many ways.</p>
+                        </div>
+                        <div class="columncontrol parbase">
+                            <div class="column__row--2   column--center  ">
+                                <div class="column" data-s-region-id="Grid|Main|Region 4 of 5|Grid 1 of 2|Anonymous">
+                                    <div>
+                                        <div class="responsiveimage parbase section">
+                                            <a href="donate.php" data-link-type="image" data-name="In Ukraine, a girl stands outside alone on a dreay day while wearing a dark coat and hat. " data-s-object-id="Image|In Ukraine, a girl stands outside alone on a dreay day while wearing a dark coat and hat. |" data-di-id="di-id-cd8be04b-7b66f443">
+                                                <div>
+                                                    <picture>
+                                                        
+                                                        <img alt="In Ukraine, a girl stands outside alone on a dreay day while wearing a dark coat and hat. " src=".dyo/cq5dam.thumbnail.768.768(2).jpg">
+                                                    </picture>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="textarea parbase section">
+                                            <p><strong><a href="donate.php" data-s-object-id="Text|Donate|" data-di-id="di-id-e63d554c-1363a8f1">Donate</a></strong><br>
+                                                <br>
+                                                Support Save the Children’s mission. Donate to the <a href="donate.php" data-s-object-id="Text|Children&#39;s Emergency Fun|" data-di-id="di-id-a6bb92cb-24dc1f5b">Children's Emergency Fun</a>d to help children in crisis in Ukraine and around the world grow up healthy, educated and safe.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column" data-s-region-id="Grid|Main|Region 4 of 5|Grid 2 of 2|Anonymous">
+                                    <div>
+                                        <div class="responsiveimage parbase section">
+                                            <div>
+                                                <picture>
+                                                    
+                                                    <img alt="Ukraine refugees, including children, arriving in Romania receive humanitarian aid." src=".dyo/cq5dam.thumbnail.768.768(3).jpg">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <div class="textarea parbase section">
+                                            <p><a href="donate.php" data-s-object-id="Text|Shop Gift Catalog|" data-di-id="di-id-a6bb92cb-39d78ba4"><strong>Shop Gift Catalog</strong></a><br>
+                                                Give a meaningful gift that will help transform children’s lives and futures in Ukraine and beyond.&nbsp;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <section class="section--biscuit-light section--sign-up" data-s-region-id="Panel|Enewsletter Signup|Region 5 of 5||Anonymous">
+            <div>
+                <div class="section__container">
+                    <form name="footer-email-signup" id="footer-email-signup-JYQAVOIBOP2LFTQV89TQ" class="form--sign-up has-validation-callback" method="POST" action="https://support.savethechildren.org/site/SSurvey" data-submit-source="FOOT" novalidate="novalidate" data-di-form-id="Footer Email Sign-up" data-di-form-track="1">
+                        <p class="enewsletter__title "><a id="footer-email-signup" name="footer-email-signup" data-link-type="learn_more" data-name="Sign Up &amp; Stay Connected" data-di-id="#footer-email-signup">Sign Up &amp; Stay Connected</a></p>
+                        <div class="form__row--columns">
+                            <div class="form__column">
+                                <label for="cons_first_name" class="form__label"><span class="form__required">*</span>First Name</label>
+                                <input type="text" name="cons_first_name" id="cons_first_name" class="form__input" required="required" pattern="^([a-z A-Z\-&#39;]+)$" data-validation="required custom" data-validation-regexp="^([a-z A-Z\-&#39;]+)$" data-di-id="#cons_first_name">
+                            </div>
+                            <div class="form__column">
+                                <label for="cons_last_name" class="form__label"><span class="form__required">*</span>Last Name</label>
+                                <input type="text" name="cons_last_name" id="cons_last_name" class="form__input" required="required" pattern="^([a-z A-Z\-&#39;]+)$" data-validation="required custom" data-validation-regexp="^([a-z A-Z\-&#39;]+)$" data-di-id="#cons_last_name">
+                            </div>
+                            <div class="form__column">
+                                <label for="cons_email" class="form__label"><span class="form__required">*</span>Email Address</label>
+                                <input type="email" name="cons_email" id="cons_email" class="form__input text--lowercase" required="required" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-validation="required email custom" data-validation-regexp="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-di-id="#cons_email">
+                            </div>
+                            <div class="form__column">
+                                <label for="4368_1441_2_1301" class="form__label"><a href="donate.php" class="form__label-link" data-s-object-id="Text|†|" data-di-id="di-id-d4ba1bf1-3891dc87"><sup>†</sup></a>Mobile Number</label>
+                                <input type="tel" name="4368_1441_2_1301" id="4368_1441_2_1301" class="form__input" pattern="[(][0-9]{3}[)] [0-9]{3}-[0-9]{4}" placeholder="(555) 555-5555" data-validation="custom" data-validation-regexp="[(][0-9]{3}[)] [0-9]{3}-[0-9]{4}" data-validation-optional="true">
+                            </div>
+                            <div class="form__column">
+                                <button type="submit" class="button--teal" data-link-type="button" data-name="SIGN UP" data-s-object-id="Button|SIGN UP|" data-di-id="#gen_sIGNUP">SIGN UP</button>
+                            </div>
+                        </div>
+                        <div style="display:none">
+                            <label for="denySubmit">Spam Control Text:</label>&nbsp;
+                            <input type="text" name="denySubmit" id="denySubmit" value="" placeholder="This field is used to prevent form submission by scripts." data-di-id="#denySubmit">&nbsp;Please leave this field empty
+                        </div>
+                        <input type="hidden" name="ACTION_SUBMIT_SURVEY_RESPONSE" id="ACTION_SUBMIT_SURVEY_RESPONSE" value="Submit Survey" data-di-id="#ACTION_SUBMIT_SURVEY_RESPONSE">
+                        <input type="hidden" name="cons_info_component" id="cons_info_component" value="t" data-di-id="#cons_info_component">
+                        <input type="hidden" name="SURVEY_ID" id="SURVEY_ID" value="1441" data-di-id="#SURVEY_ID">
+                        <input type="hidden" id="source" name="source" value="Web|Direct||||3/8/2022" data-di-id="#source"><input type="hidden" id="sub_source" name="sub_source" value="19641901023341707784427700572964072817|||||" data-di-id="#sub_source">
+                    </form>
+                    <div class="form__thank-you">
+                        <p class="enewsletter__title ">Welcome!</p>
+                        <p>We’ll be in touch! By signing up to receive emails from Save the Children you will receive a subscription to our monthly eNews, access to breaking emergency alerts and opportunities to get involved. To ensure delivery of Save the Children emails to your inbox, add support@savechildren.org to your contact list. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="footer" data-s-region-id="Footer|Global|||Anonymous">
+        <div class="footer__container">
+            <div class="footer__row footer__row--first" data-s-region-id="Footer|Global|Region 1 of 2||Anonymous">
+                <div class="footer__column footer__column--100-50-20">
+                    <ul class="footer__list" data-s-region-id="Navigation|Footer|Region 1 of 2|Grid 1 of 3|Anonymous">
+                        <li>
+                            <a target="_blank" href="donate.php" data-link-type="text" data-name="Learn More" data-s-object-id="Text|Learn More|" data-di-id="di-id-fbb9c65-311d0b17">Learn More</a>
+                        </li>
+                        <li>
+                            <a target="_self" href="donate.php" data-link-type="text" data-name="Why Save the Children?" data-s-object-id="Text|Why Save the Children?|" data-di-id="di-id-f4076a44-16694161">Why Save the Children?</a>
+                        </li>
+                        <li>
+                            <a target="_self" href="donate.php" data-link-type="text" data-name="About Us" data-s-object-id="Text|About Us|" data-di-id="di-id-3ab58022-ef28c1bf">About Us</a>
+                        </li>
+                        <li>
+                            <a target="_self" href="donate.php" data-link-type="text" data-name="What We Do" data-s-object-id="Text|What We Do|" data-di-id="di-id-3ab58022-eba791b">What We Do</a>
+                        </li>
+                        <li>
+                            <a target="_self" href="donate.php" data-link-type="text" data-name="Where We Work" data-s-object-id="Text|Where We Work|" data-di-id="di-id-f19fb9c0-e1a65403">Where We Work</a>
+                        </li>
+                        <li>
+                            <a target="_self" href="donate.php" data-link-type="text" data-name="Frequently Asked Questions" data-s-object-id="Text|Frequently Asked Questions|" data-di-id="di-id-1a11bd0b-ce0768d9">Frequently Asked Questions</a>
+                        </li>
+                        <li>
+                            <a target="_self" href="donate.php" data-link-type="text" data-name="Charity Ratings" data-s-object-id="Text|Charity Ratings|" data-di-id="di-id-b07e25d-9136b3c5">Charity Ratings</a>
+                        </li>
+                    </ul>
+                    <a class="button--red button--large" target="_self" href="donate.php" data-link-type="button" data-name="Donate Now" data-s-object-id="Button|Donate Now|" data-di-id="di-id-dd04242-79ba536b">Donate Now</a>
+                </div>
+                <div class="footer__column footer__column--100-50-35" data-s-region-id="Grid|Footer|Region 1 of 2|Grid 2 of 3|Anonymous">
+                    <div class="footer__finances">
+                        <div class="footer__pie-chart">
+                            <a href="donate.php" data-link-type="image" data-name="Save the Children Financial Information" data-s-object-id="Image|Save the Children Financial Information|" data-di-id="di-id-50a4739c-ce0c074d">
+                                <img src=".dyo/2020-where-giving-goes-footer.png" alt="85%, 9%, 6% for Financial Information for Save the Children 2020">
+                            </a>
+                        </div>
+                        <div class="footer__finance-statement">
+                            <div class="footer__heading">An organization you can trust</div>
+                            <p>When you give, 85% of every dollar goes straight to our mission.&nbsp;<a href="donate.php" title="Financial Information" data-s-object-id="Text|Find out more|Financial Information" data-di-id="di-id-31c08614-e9d85a41">Find out more</a>.</p>
+                        </div>
+                    </div>
+                    <div class="charity charity--footer">
+                        <a href="donate.php" target="_self" data-link-type="image" data-name="Charity Navigator Logo" class="charity__link " data-s-object-id="Image|Charity Navigator Logo|" data-di-id="di-id-54668fcd-c12bbe92">
+                            <img src=".dyo/Charity-Navigator-Sm-Logo.png" alt="Charity Navigator Logo" class="charity__img ">
+                        </a>
+                        <a href="donate.php" target="_self" data-link-type="image" data-name="Charity Watch Top Rated Logo" class="charity__link" data-s-object-id="Image|Charity Watch Top Rated Logo|" data-di-id="di-id-f9e2d390-45e4570d">
+                            <img src=".dyo/Charity-Watch-Sm-Logo.png" alt="Charity Watch Top Rated Logo" class="charity__img ">
+                        </a>
+                        <a href="donate.php" target="_self" data-link-type="image" data-name="Better Business Bureau Accredited Charity Logo" class="charity__link" data-s-object-id="Image|Better Business Bureau Accredited Charity Logo|" data-di-id="di-id-f9e2d390-32e3679b">
+                            <img src=".dyo/bbb-logo.svg" alt="Better Business Bureau Accredited Charity Logo" class="charity__img ">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__column footer__column--100-100-40" data-s-region-id="Grid|Footer|Region 1 of 2|Grid 3 of 3|Anonymous">
+                    <div class="footer__contact-us">
+                        <span class="footer__heading footer__heading--border">
+                            <a href="donate.php" data-link-type="text" data-s-object-id="Text|Contact Us|" data-di-id="di-id-30c7288b-e837d591">Contact Us</a>
+                        </span>
+                        <br>
+                        <span class="footer__address">
+                            501 Kings Highway East, Suite 400, Fairfield, CT 06825
+                        </span>
+                        <br>
+                        <span class="footer__phone">Main Office #
+                            <a class="footer__tel" href="donate.php" data-s-object-id="Text|203.221.4000|Phone:" data-di-id="di-id-179deb11-a6d7e0ce">203.221.4000</a>
+                            <span class="footer__separator">|</span>
+                            Mon-Fri 9:00am-5:00pm EST
+                        </span>
+                        <br>
+                        <span class="footer__phone">Donor Services #
+                            <a class="footer__tel" href="donate.php" data-link-type="text" data-s-object-id="Text|1.800.728.3843|Phone:" data-di-id="di-id-179deb11-5a496abd">1.800.728.3843</a>
+                            <span class="footer__separator">|</span>
+                            Mon-Fri 8:00am-5:00pm EST
+                        </span>
+                        <br>
+                        <a href="donate.php" data-link-type="text" class="text--italic" data-s-object-id="Text|Report fraud, abuse, wrongdoing|" data-di-id="di-id-ec957a85-c26c081c">Report fraud, abuse, wrongdoing</a>
+                    </div>
+                    <div class="social-media social-media--center">
+                        <a data-link-type="image" data-name="Facebook" href="donate.php" class="facebook social-media__link" target="_blank" data-s-object-id="Image|Facebook|Outbound:" data-di-id="di-id-43cd23b8-fe0bbfe0"><img src=".dyo/facebook-initial.svg" class="social-media__icon" alt="Facebook"></a>
+                        <a data-link-type="image" data-name="Twitter" href="donate.php" class="twitter social-media__link" target="_blank" data-s-object-id="Image|Twitter|Outbound:" data-di-id="di-id-4b53f94d-fd6eba6b"><img src=".dyo/twitter.svg" class="social-media__icon" alt="Twitter"></a>
+                        <a data-link-type="image" data-name="Instagram" href="donate.php" class="instagram social-media__link" target="_blank" data-s-object-id="Image|Instagram|Outbound:" data-di-id="di-id-5492f07a-c3279224"><img src=".dyo/instagram.svg" class="social-media__icon" alt="Instagram"></a>
+                        <a data-link-type="image" data-name="Pinterest" href="donate.php" class="pinterest social-media__link" target="_blank" data-s-object-id="Image|Pinterest|Outbound:" data-di-id="di-id-5492f07a-a0b332c3"><img src=".dyo/pinterest.svg" class="social-media__icon" alt="Pinterest"></a>
+                        <a data-link-type="image" data-name="Youtube" href="donate.php" class="youtube social-media__link" target="_blank" data-s-object-id="Image|Youtube|" data-di-id="di-id-43cd23b8-f22f6188"><img src=".dyo/youtube-tv.svg" class="social-media__icon" alt="Youtube"></a>
+                        <a data-link-type="image" data-name="Snapchat" href="donate.php" class="hidden--desktop snapchat social-media__link" target="_blank" data-s-object-id="Image|Snapchat|Outbound:" data-di-id="di-id-35ee507a-acec4c8"><img src=".dyo/snapchat.svg" class="social-media__icon" alt="Snapchat"></a>
+                        <a data-link-type="image" data-name="LinkedIn" href="donate.php" class="linkedin social-media__link" target="_blank" data-s-object-id="Image|LinkedIn|Outbound:" data-di-id="di-id-ad860709-f405c54c"><img src=".dyo/linkedin.svg" class="social-media__icon" alt="LinkedIn"></a>
+                    </div>
+                </div>
+            </div>
+            <!--<sly data-sly-include="footer-middle.html"></sly>-->
+            <div class="footer__row footer__row--last" data-s-region-id="Footer|Global|Region 2 of 2||Anonymous">
+                <ul class="footer__links" data-s-region-id="Navigation|Footer|Region 2 of 2||Anonymous">
+                    <li>
+                        <a target="_self" href="donate.php" data-link-type="text" data-name="Privacy Policy" data-s-object-id="Text|Privacy Policy|" data-di-id="di-id-eddd2ec2-e44fa4f8">Privacy Policy</a>
+                        <span class="footer__separator">|</span>
+                    </li>
+                    <li>
+                        <a target="_self" href="donate.php" data-link-type="text" data-name="Terms of Use" data-s-object-id="Text|Terms of Use|" data-di-id="di-id-6ac792d1-6ad7bd35">Terms of Use</a>
+                        <span class="footer__separator">|</span>
+                    </li>
+                    <li>
+                        <a target="_self" href="donate.php" data-link-type="text" data-name="Legal Disclosure" data-s-object-id="Text|Legal Disclosure|" data-di-id="di-id-f50be3b7-856f0744">Legal Disclosure</a>
+                        <span class="footer__separator">|</span>
+                    </li>
+                    <li>
+                        <a target="_self" href="donate.php" data-link-type="text" data-name="Financial Information" data-s-object-id="Text|Financial Information|" data-di-id="di-id-dba6beb-500e883d">Financial Information</a>
+                        <span class="footer__separator">|</span>
+                    </li>
+                    <li>
+                        <a target="_self" href="donate.php" data-link-type="text" data-name="Sitemap" data-s-object-id="Text|Sitemap|" data-di-id="di-id-ac746579-b3261991">Sitemap</a>
+                        <span class="footer__separator">|</span>
+                    </li>
+                    <li>
+                        <a target="_self" href="donate.php" data-link-type="text" data-name="Newsroom" data-s-object-id="Text|Newsroom|" data-di-id="di-id-eddd2ec2-d625d57c">Newsroom</a>
+                        <span class="footer__separator">|</span>
+                    </li>
+                    <li>
+                        <a target="_self" href="donate.php" data-link-type="text" data-name="Careers" data-s-object-id="Text|Careers|" data-di-id="di-id-9feec6ec-20e0ba8a">Careers</a>
+                        <span class="footer__separator">|</span>
+                    </li>
+                    <li>
+                        <a target="_self" href="donate.php" data-link-type="text" data-name="Contact Us" data-s-object-id="Text|Contact Us|" data-di-id="di-id-78d85340-127dd910">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="footer__text-row footer__deductible-statement">
+                    <span class="footer__copyright-year">
+                        © 2022 Save the Children
+                    </span>
+                    Save the Children Federation, Inc. is a 501(c)(3) organization. Gifts are deductible to the full extent allowable under IRS regulations.
+                </div>
+                <div id="mobile-opt-in-language" class="footer__text-row">
+                    <sup>†</sup> By providing my mobile phone number, I opt in to receive text messages and phone calls from Save the Children regarding its lifesaving work. Text STOP to opt out, HELP for help. Message &amp; data rates may apply.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <form>
+        <input type="hidden" id="apikey" value="wDB09SQODRpVIOvX" data-di-id="#apikey">
+        <input type="hidden" id="jsurl" value="support.savethechildren.org/site/" data-di-id="#jsurl">
+        <input type="hidden" id="redbarApiUrl" value="https://support.savethechildren.org/site/SPageNavigator/api_cons_cart.html?pgwrap=n" data-di-id="#redbarApiUrl">
+    </form>
+</body>
+
+</html>
