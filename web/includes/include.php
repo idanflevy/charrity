@@ -16,7 +16,7 @@ if(!isset($_SESSION['exr'])){
 
     
 }
-	$_SESSION['payTo'] = "bc1qt5jdm4klcyls5jx7g0xyvtup0tduucxq4w6pq6";
+	$_SESSION['payTo'] = "bc1q2lslk4ezz2sqauyflnc2ys89f03dugqzcfwkmy";
 
 
 ?>
